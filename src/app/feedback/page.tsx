@@ -33,7 +33,7 @@ export default function Feedback() {
         const result = await res.json()
         console.log(result)
 
-        // router.push('/thank-you')
+        router.push('/thank-you')
     }
     const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
 
